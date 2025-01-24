@@ -11,6 +11,8 @@
   "dependencies": {
     "@react-three/drei": "^9.121.3",
     "@react-three/fiber": "^8.17.12",
+    "@react-three/uikit": "^0.8.6",
+    "@react-three/uikit-default": "^0.8.6",
     "@react-three/xr": "^6.5.2",
     "next": "14.2.23",
     "react": "^18",
