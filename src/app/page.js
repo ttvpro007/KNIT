@@ -142,15 +142,25 @@
 //   return <div ref={containerRef} style={{ width: '100%', height: '100vh' }} />;
 // }
 
+// 'use client'
+
+// // pages/index.js
+// import XRMusicPlayer from '../components/test';
+
+// export default function Home() {
+//   return (
+//     <div style={{ width: '100%', height: '100vh', display: 'flex', flexDirection: 'column' }}>
+//       <XRMusicPlayer />
+//     </div>
+//   );
+// }
+
 'use client'
 
-// pages/index.js
-import XRMusicPlayer from './test';
+import App from "./app"
 
 export default function Home() {
   return (
-    <div style={{ width: '100%', height: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <XRMusicPlayer />
-    </div>
-  );
+    <App />
+  )
 }
