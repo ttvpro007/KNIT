@@ -81,8 +81,6 @@
 
 // export default App;
 
-'use client'
-
 import React, { useEffect } from 'react';
 
 const App = () => {
