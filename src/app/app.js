@@ -81,13 +81,15 @@
 
 // export default App;
 
+'use client'
+
 import React, { useEffect } from 'react';
 
 const App = () => {
     useEffect(() => {
         // Load Delight VR script
         const script = document.createElement('script');
-        script.src = '//cdn.delight-vr.com/latest/dl8-9ec78c241d3706ae66d6c851976f6d877878e89c.js';
+        script.src = 'https://cdn.delight-vr.com/latest/dl8-9ec78c241d3706ae66d6c851976f6d877878e89c.js';
         script.async = true;
         document.body.appendChild(script);
 
